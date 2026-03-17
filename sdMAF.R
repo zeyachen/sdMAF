@@ -261,6 +261,6 @@ cat(paste0("Writing results to ",f.nm," and logs to ",logs.nm,"\n"))
 
 write.table(chromwithP, file = f, sep = "\t", quote = F, append=FALSE, row.names = FALSE, col.names=TRUE)
 
-cat(paste0("Analysis ended at ", Sys.time())
+cat(paste0("Analysis ended at ", Sys.time()))
 sink()
 close(f)
